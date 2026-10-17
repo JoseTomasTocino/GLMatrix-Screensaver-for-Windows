@@ -1,0 +1,16 @@
+# Build artifacts other than the distributable screensaver
+dist/*
+!dist/GLMatrix.scr
+
+# Local tooling and IDE state
+.vs/
+.vscode/
+*.user
+*.suo
+*.pdb
+*.tmp
+*.log
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
